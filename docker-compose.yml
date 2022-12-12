@@ -1,0 +1,5 @@
+services:
+  mysql:
+    image: 'mysql:8.0.28-oracle'
+    ports:
+    - '3306:3306'
